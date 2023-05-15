@@ -6,27 +6,31 @@ import Col from 'react-bootstrap/Col';
 
 const Cards = (props) => {
 
+
   return (
     <div>
       <Row xs={1} md={3} className="g-4">
         {props.infoCards.map((infoCards) => (
-          <Col>
+          <Col key={infoCards.id}>
             <Card>
               <Card.Img 
                 variant="top"
                 width={171}
-                height={180} 
-                src="../Assets/img1.png" />
+                height={180}  
+                src={infoCards.img} />
               <Card.Body>
                 <Card.Title> 
-                  <a href="../Assets/img1.png">{infoCards.title}</a>
+                  {infoCards.title}
                 </Card.Title>
+                <Card.Text>
+                  {infoCards.desc}
+                </Card.Text>           
               </Card.Body>
             </Card>
           </Col>
         ))}
       </Row>
-
+      
     </div>
   );
 }

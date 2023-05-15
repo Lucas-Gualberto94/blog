@@ -2,6 +2,7 @@ import './App.css';
 import Blogs from './components/Blog';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+
 const App = () => {
   return (
     <div className="App">
