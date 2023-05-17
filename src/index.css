@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+}
+
+/* NavBar*/
+.box {
+  width: 670px;
+  height: 400px;
+  gap: 20px;
+  pointer-events: auto;
+  border-style: solid;
+  border-color: red;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: peachpuff;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+
+/* Dialog*/
+
