@@ -27,7 +27,7 @@ const Blogs = (props) => {
   console.log(theme);
 
   return (
-    <div>
+    <div className="card">
       <NavBar changeTheme={setTheme} />
       <Cards filteredData={filteredData} />
     </div>

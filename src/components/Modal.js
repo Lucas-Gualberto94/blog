@@ -1,7 +1,10 @@
 import React from "react";
 
-const Dialog = (props) => {
+const Modal = (props) => {
+    if(!props.openModal) return null
     return (
+        <>
+        <div className="box-1"></div>
         <div className="box">
             <h2>teste</h2>
             <h3>afs fass sffsdddgs  sffafafafaf
@@ -13,11 +16,10 @@ const Dialog = (props) => {
                   sdgeg erer 
                     wegsgddre gerrgdgd gd
             </h3>
-            <button onClick={() => {
-                props.setOpenDialog(false);
-            }}>Back</button>
+            <button onClick={props.onClose}>Back</button>
         </div>
+        </>
     )
 }
 
-export default Dialog;
+export default Modal;

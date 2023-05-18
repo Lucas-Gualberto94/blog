@@ -5,7 +5,7 @@ const NavBar = (props) => {
 
 
   return (
-    <Nav variant="pills" defaultActiveKey="#tech">
+    <Nav variant="pills" defaultActiveKey="#tech" className="nav">
       <Nav.Item>
         <Nav.Link href="#tech" onClick={() => props.changeTheme('tech')}>Tech</Nav.Link>
       </Nav.Item>

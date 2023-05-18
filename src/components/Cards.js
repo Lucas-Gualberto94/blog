@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Dialog from "./Dialog";
+import Modal from "./Modal";
 
 
 const Cards = (props) => {
 
-  const [openDialog, setOpenDialog] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div>
@@ -15,7 +15,7 @@ const Cards = (props) => {
         {props.filteredData.map((filteredData) => (
           <Col key={filteredData.id}>
             <Card onClick={() => {
-              setOpenDialog(true);
+              setOpenModal(true);
             }}> 
               <Card.Img 
                 variant="top"
@@ -34,10 +34,9 @@ const Cards = (props) => {
           </Col>
         ))}
       </Row>
-      {openDialog && <Dialog 
-        openDialog={openDialog} 
-        setOpenDialog={setOpenDialog}
-      /> }
+      <Modal 
+        openModal={openModal} onClose={() => setOpenModal(false)}
+      />
     </div>
   );
 }
