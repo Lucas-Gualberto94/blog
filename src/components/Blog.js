@@ -24,8 +24,6 @@ const Blogs = (props) => {
     }
   })
 
-  console.log(theme);
-
   return (
     <div className="card">
       <NavBar changeTheme={setTheme} />
