@@ -7,11 +7,7 @@ import ScienceReligion from './ContentBlog/ScienceReligion';
 const Modal = (props) => {
     if (!props.isOpen) return null; 
     
-    /*if (props.getId === '01') {
-        return <ConfidenceScience />;   
-    } else {
-        return <ScienceReligion />;   
-    }
+    /*
 
     else if (otherCase) {
           return (
@@ -29,7 +25,23 @@ const Modal = (props) => {
           return (
             <div><ConfidenceScience /></div>
           )
-        }  else {
+        } else if (props.getId === '02') {
+          return (
+            <div><ScienceReligion /></div>
+          )
+        } else if (props.getId === '03') {
+          return (
+            <div><ScienceReligion /></div>
+          )
+        } else if (props.getId === '04') {
+          return (
+            <div><ScienceReligion /></div>
+          )
+        } else if (props.getId === '05') {
+          return (
+            <div><ScienceReligion /></div>
+          )
+        } else {
           return (
             <div><ScienceReligion /></div>
           )

@@ -38,6 +38,8 @@ code {
   background-color: peachpuff;
   padding: 50px;
   z-index: 1000;
+  overflow-y: auto;
+  height: 80vh;
 }
 
 .box-1 {
