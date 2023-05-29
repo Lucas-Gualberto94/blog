@@ -38,7 +38,7 @@ const ScienceReligion = () => {
             </p>
             <p className="p">The distinction of realm of reality is crucial because if we assume that these
                 belong to the same realm, we will have a problem between what science says and
-                the religion´s parables.
+                the religion´s parables...
             </p>
         </div>
     );
