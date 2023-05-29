@@ -18,7 +18,6 @@ const Modal = (props) => {
 
     return ReactDOM.createPortal(
         <>
-            <div className="box-1"></div>
             <div className="box">
             {(() => {
         if (props.getId === '01') {
