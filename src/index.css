@@ -46,12 +46,12 @@ code {
 
 
 /* Context blogs*/
-.title {
+content title {
   text-align: center;
   margin: 20px;
 }
 
-.p {
+content p {
   text-indent: 30px;
   text-align: justify;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import ConfidenceScience from './ContentBlog/ConfidenceScience';
 import ScienceReligion from './ContentBlog/ScienceReligion';
-
+import DefinitionReact from "./ContentBlog/React";
 
 const Modal = (props) => {
     if (!props.isOpen) return null; 
@@ -30,7 +30,7 @@ const Modal = (props) => {
           )
         } else if (props.getId === '03') {
           return (
-            <div><ScienceReligion /></div>
+            <div><DefinitionReact /></div>
           )
         } else if (props.getId === '04') {
           return (
