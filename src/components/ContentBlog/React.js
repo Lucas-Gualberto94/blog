@@ -4,6 +4,7 @@ import '../../index.css';
 const DefinitionReact = () => {
     return (
         <div className="content">
+            <h2>What is React and advantage in use it</h2>
             <p>
                 React is an open-source JavaScript library for building user interfaces (UIs) developed
                 by Facebook. It allows developers to create reusable UI components and efficiently manage
@@ -36,14 +37,6 @@ const DefinitionReact = () => {
                       debugging. It also improves performance since React can efficiently determine
                        when to re-render components by comparing the incoming data with the 
                        previous data.
-                </li>
-                <li>
-                <strong> Virtual DOM:</strong> React utilizes a virtual DOM (Document Object Model) to 
-                    efficiently update and render components. The virtual DOM is an in-memory 
-                    representation of the actual DOM, and React uses a diffing algorithm to 
-                    compute the minimal number of changes required to update the real DOM based 
-                    on the current state and UI changes. This approach significantly reduces 
-                    the number of direct manipulations on the DOM, resulting in better performance.
                 </li>
                 <li>
                 <strong>Rich ecosystem and community support: </strong>React has a vast and active community 

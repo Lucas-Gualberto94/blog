@@ -40,6 +40,13 @@ const Data = [
     img: require("../Assets/img6.png"),
     category: "travel",
     desc: "teste teste teste teste teste teste teste teste teste teste teste teste"
+  },
+  {
+    id: '07',
+    title: 'Creating a sideBar using react',
+    img: require("../Assets/img6.png"),
+    category: "tech",
+    desc: "teste teste teste teste teste teste teste teste teste teste teste teste"
   }
 ];
 
