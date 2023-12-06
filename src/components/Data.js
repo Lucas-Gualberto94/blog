@@ -42,10 +42,10 @@ const Data = [
     desc: "teste teste teste teste teste teste teste teste teste teste teste teste"
   },
   {
-    id: '07',
-    title: 'Creating a sideBar using react',
+    id: '08',
+    title: 'Karl Popper Teory',
     img: require("../Assets/img6.png"),
-    category: "tech",
+    category: "science",
     desc: "teste teste teste teste teste teste teste teste teste teste teste teste"
   }
 ];

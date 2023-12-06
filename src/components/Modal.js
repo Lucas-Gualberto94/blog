@@ -4,6 +4,7 @@ import ConfidenceScience from './ContentBlog/ConfidenceScience';
 import ScienceReligion from './ContentBlog/ScienceReligion';
 import DefinitionReact from "./ContentBlog/React";
 import CreateSideBar from "./ContentBlog/CreateSideBar";
+import KarlPopper from "./ContentBlog/KarlPopper";
 
 const Modal = (props) => {
     if (!props.isOpen) return null; 
@@ -43,8 +44,9 @@ const Modal = (props) => {
           )
         } else if (props.getId === '07') {
           return (
-            <div><CreateSideBar /></div>
+            <div><KarlPopper /></div>
           )
+
         } else {
           return (
             <div><ScienceReligion /></div>

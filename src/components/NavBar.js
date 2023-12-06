@@ -10,7 +10,7 @@ const NavBar = (props) => {
         <Nav.Link href="#tech" onClick={() => props.changeTheme('tech')}>Tech</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#science" onClick={() => props.changeTheme('science')}>Science</Nav.Link>
+        <Nav.Link href="#science" onClick={() => props.changeTheme('science')}>Philosophy and Science</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link href="#education" onClick={() => props.changeTheme('education')}>Education</Nav.Link>
